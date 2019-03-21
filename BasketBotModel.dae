@@ -5,8 +5,8 @@
       <author>Blender User</author>
       <authoring_tool>Blender 2.80.48 commit date:2019-03-13, commit time:00:20, hash:bf9904ec8018</authoring_tool>
     </contributor>
-    <created>2019-03-21T19:57:39</created>
-    <modified>2019-03-21T19:57:39</modified>
+    <created>2019-03-21T20:21:07</created>
+    <modified>2019-03-21T20:21:07</modified>
     <unit name="meter" meter="1"/>
     <up_axis>Z_UP</up_axis>
   </asset>
@@ -16,10 +16,10 @@
         <technique sid="common">
           <lambert>
             <diffuse>
-              <color sid="diffuse">0.8 0.8 0.8 1</color>
+              <color sid="diffuse">0.09530751 0.01161224 0.04373504 1</color>
             </diffuse>
             <reflectivity>
-              <float sid="specular">0.5</float>
+              <float sid="specular">0</float>
             </reflectivity>
           </lambert>
         </technique>
@@ -30,10 +30,10 @@
         <technique sid="common">
           <lambert>
             <diffuse>
-              <color sid="diffuse">0.8 0.8 0.8 1</color>
+              <color sid="diffuse">0.01850023 0 3.7835e-10 1</color>
             </diffuse>
             <reflectivity>
-              <float sid="specular">0.5</float>
+              <float sid="specular">0.08474576</float>
             </reflectivity>
           </lambert>
         </technique>
@@ -44,7 +44,7 @@
         <technique sid="common">
           <lambert>
             <diffuse>
-              <color sid="diffuse">0.8 0.8 0.8 1</color>
+              <color sid="diffuse">0.01108763 0.01108763 0.01108763 1</color>
             </diffuse>
             <reflectivity>
               <float sid="specular">0.5</float>
@@ -57,11 +57,8 @@
       <profile_COMMON>
         <technique sid="common">
           <lambert>
-            <diffuse>
-              <color sid="diffuse">0.8 0.8 0.8 1</color>
-            </diffuse>
             <reflectivity>
-              <float sid="specular">0.5</float>
+              <float sid="specular">0</float>
             </reflectivity>
           </lambert>
         </technique>
@@ -72,10 +69,10 @@
         <technique sid="common">
           <lambert>
             <diffuse>
-              <color sid="diffuse">0.8 0.8 0.8 1</color>
+              <color sid="diffuse">0.004391443 0.01161225 0.06662598 1</color>
             </diffuse>
             <reflectivity>
-              <float sid="specular">0.5</float>
+              <float sid="specular">0</float>
             </reflectivity>
           </lambert>
         </technique>
@@ -531,7 +528,7 @@
   <library_visual_scenes>
     <visual_scene id="Scene" name="Scene">
       <node id="WheelBase" name="WheelBase" type="NODE">
-        <matrix sid="transform">-0.55 1.36853e-7 0 -7.68155e-4 -1.79213e-7 -0.42 0 0.00246653 0 0 0.025 -0.3252374 0 0 0 1</matrix>
+        <matrix sid="transform">-0.55 1.36853e-7 0 -7.68155e-4 -1.79213e-7 -0.42 0 0.00246653 0 0 0.025 0.02638468 0 0 0 1</matrix>
         <instance_geometry url="#Cube_003-mesh" name="WheelBase">
           <bind_material>
             <technique_common>
@@ -543,7 +540,7 @@
         </instance_geometry>
       </node>
       <node id="ProductScanner" name="ProductScanner" type="NODE">
-        <matrix sid="transform">-8.79313e-4 0.001188456 -0.00273346 0.436831 -1.59902e-5 -0.06535406 -4.97083e-5 0.008877784 -3.2562e-4 -5.90158e-9 0.007383952 0.1214714 0 0 0 1</matrix>
+        <matrix sid="transform">-8.79313e-4 0.001188456 -0.00273346 0.436831 -1.59902e-5 -0.06535406 -4.97083e-5 0.008877784 -3.2562e-4 -5.90158e-9 0.007383952 0.4730935 0 0 0 1</matrix>
         <instance_geometry url="#Cube_001-mesh" name="ProductScanner">
           <bind_material>
             <technique_common>
@@ -555,7 +552,7 @@
         </instance_geometry>
       </node>
       <node id="InfoScreen" name="InfoScreen" type="NODE">
-        <matrix sid="transform">-9.3763e-4 0.001818187 -0.01735791 0.4591647 -1.70507e-5 -0.09998348 -3.15656e-4 0.00928399 -3.47216e-4 -9.02868e-9 0.04688927 0.06334107 0 0 0 1</matrix>
+        <matrix sid="transform">-9.3763e-4 0.001818187 -0.01735791 0.4591647 -1.70507e-5 -0.09998348 -3.15656e-4 0.00928399 -3.47216e-4 -9.02868e-9 0.04688927 0.4149631 0 0 0 1</matrix>
         <instance_geometry url="#Cube-mesh" name="InfoScreen">
           <bind_material>
             <technique_common>
@@ -567,7 +564,7 @@
         </instance_geometry>
       </node>
       <node id="Basket" name="Basket" type="NODE">
-        <matrix sid="transform">3.86773e-4 6.88243e-11 4.25825e-4 0.002576523 4.25331e-4 -6.25851e-11 -3.87222e-4 0.005201966 0 5.70984e-4 -9.37704e-11 0.1344674 0 0 0 1</matrix>
+        <matrix sid="transform">3.86773e-4 6.88243e-11 4.25825e-4 0.002576523 4.25331e-4 -6.25851e-11 -3.87222e-4 0.005201966 0 5.70984e-4 -9.37704e-11 0.4860895 0 0 0 1</matrix>
         <instance_geometry url="#Basket_shopping_N180315_3ds-mesh" name="Basket">
           <bind_material>
             <technique_common>
@@ -582,7 +579,7 @@
         </instance_geometry>
       </node>
       <node id="ScreenBody" name="ScreenBody" type="NODE">
-        <matrix sid="transform">-1.7 3.41482e-7 0 -7.68155e-4 -5.5393e-7 -1.048 0 0.00246653 0 0 0.2172424 0.06565492 0 0 0 1</matrix>
+        <matrix sid="transform">-1.7 3.41482e-7 0 -7.68155e-4 -5.5393e-7 -1.048 0 0.00246653 0 0 0.2172424 0.417277 0 0 0 1</matrix>
         <instance_geometry url="#Cylinder_001-mesh" name="ScreenBody">
           <bind_material>
             <technique_common>
@@ -594,7 +591,7 @@
         </instance_geometry>
       </node>
       <node id="Body" name="Body" type="NODE">
-        <matrix sid="transform">-1.7 4.26852e-7 0 -7.68155e-4 -5.5393e-7 -1.31 0 0.00246653 0 0 0.4994886 -0.1499786 0 0 0 1</matrix>
+        <matrix sid="transform">-1.7 4.26852e-7 0 -7.68155e-4 -5.5393e-7 -1.31 0 0.00246653 0 0 0.4994886 0.2016435 0 0 0 1</matrix>
         <instance_geometry url="#Cylinder-mesh" name="Body">
           <bind_material>
             <technique_common>
@@ -606,7 +603,7 @@
         </instance_geometry>
       </node>
       <node id="BasketHolder_Rear_Left" name="BasketHolder_Rear_Left" type="NODE">
-        <matrix sid="transform">-0.001922935 0.007565188 0.01945726 -0.3605429 0.002245772 0.006534846 -0.0168172 0.2348761 -5.08751e-4 2.52404e-4 -0.1477789 0.2805285 0 0 0 1</matrix>
+        <matrix sid="transform">-0.001922935 0.007565188 0.01945726 -0.3605429 0.002245772 0.006534846 -0.0168172 0.2348761 -5.08751e-4 2.52404e-4 -0.1477789 0.6321505 0 0 0 1</matrix>
         <instance_geometry url="#Cylinder_006-mesh" name="BasketHolder_Rear_Left">
           <bind_material>
             <technique_common>
@@ -618,7 +615,7 @@
         </instance_geometry>
       </node>
       <node id="BasketHolder_Front_Left" name="BasketHolder_Front_Left" type="NODE">
-        <matrix sid="transform">-0.001922933 0.007565192 0.01945741 0.3850257 -0.002245774 -0.006534841 0.01681721 0.2146097 5.08753e-4 -2.52413e-4 0.1477789 0.2764191 0 0 0 1</matrix>
+        <matrix sid="transform">-0.001922933 0.007565192 0.01945741 0.3850257 -0.002245774 -0.006534841 0.01681721 0.2146097 5.08753e-4 -2.52413e-4 0.1477789 0.6280411 0 0 0 1</matrix>
         <instance_geometry url="#Cylinder_005-mesh" name="BasketHolder_Front_Left">
           <bind_material>
             <technique_common>
@@ -630,7 +627,7 @@
         </instance_geometry>
       </node>
       <node id="BasketHolder_Front_Right" name="BasketHolder_Front_Right" type="NODE">
-        <matrix sid="transform">0.001922935 -0.007565188 -0.01945726 0.3781438 -0.002245772 -0.006534847 0.0168172 -0.2108252 -5.08751e-4 2.52404e-4 -0.1477789 0.2819774 0 0 0 1</matrix>
+        <matrix sid="transform">0.001922935 -0.007565188 -0.01945726 0.3781438 -0.002245772 -0.006534847 0.0168172 -0.2108252 -5.08751e-4 2.52404e-4 -0.1477789 0.6335995 0 0 0 1</matrix>
         <instance_geometry url="#Cylinder_004-mesh" name="BasketHolder_Front_Right">
           <bind_material>
             <technique_common>
@@ -642,7 +639,7 @@
         </instance_geometry>
       </node>
       <node id="BasketHolder_Rear_Right" name="BasketHolder_Rear_Right" type="NODE">
-        <matrix sid="transform">0.001922935 -0.00756519 -0.01945725 -0.3653421 0.002245773 0.006534845 -0.01681722 -0.2248311 5.08751e-4 -2.52404e-4 0.1477789 0.2798219 0 0 0 1</matrix>
+        <matrix sid="transform">0.001922935 -0.00756519 -0.01945725 -0.3653421 0.002245773 0.006534845 -0.01681722 -0.2248311 5.08751e-4 -2.52404e-4 0.1477789 0.631444 0 0 0 1</matrix>
         <instance_geometry url="#Cylinder_003-mesh" name="BasketHolder_Rear_Right">
           <bind_material>
             <technique_common>
